@@ -140,7 +140,27 @@ Once the environment and database are set up, you can run the application with t
 
    The application will start, and you can access it via the specified host and port in your configuration.
 
-## License
+**Access the site at the given HTTP://IPADDRESS:5000**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Enter the data and check back in your database.
 
+```
+sudo -u postgres psql
+```
+To list databases
+
+```\l```
+
+To Select the database 
+
+```\c my_database```
+
+To view the data table entered 
+
+```\dt```
+
+To view the content inside the table "item"
+
+```SELECT * FROM item;```
+
+You can add more and modify to test it our more.
